@@ -1,4 +1,4 @@
-# NFT Proof of Attendance (POAP)
+# NFT Proof of Attendance 
 
 A blockchain platform for issuing digital badges as NFTs to verify event attendance. Simple, permanent, and trustless.
 
