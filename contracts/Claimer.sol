@@ -66,9 +66,7 @@ contract Claimer is Ownable {
         eventManager = IEventManager(_eventManager);
     }
     
-    /**
-     * @dev Set claiming method for an event
-     */
+    
     function setClaimMethod(uint256 eventId, ClaimMethod method) external {
         (,,,, address organizer,,,,) = eventManager.events(eventId);
         require(organizer == msg.sender, "Not event organizer");
@@ -175,4 +173,5 @@ contract Claimer is Ownable {
                whitelist[eventId][user] &&
                !poapContract.hasClaimedBadge(user, eventId);
     }
+
 }
