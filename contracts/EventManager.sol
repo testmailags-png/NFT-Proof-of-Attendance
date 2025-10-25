@@ -12,7 +12,6 @@ interface IPOAP {
 
 /**
  * @title EventManager
- * @dev Manages event creation and lifecycle
  */
 contract EventManager is Ownable {
     using Counters for Counters.Counter;
@@ -167,4 +166,5 @@ contract EventManager is Ownable {
     function totalEvents() external view returns (uint256) {
         return _eventIds.current();
     }
+
 }
