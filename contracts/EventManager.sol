@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-// Interface for POAP contract
+// Interface for POAP contra
 interface IPOAP {
     function mintBadge(address recipient, uint256 eventId, string memory tokenURI) external returns (uint256);
     function hasClaimedBadge(address user, uint256 eventId) external view returns (bool);
@@ -168,3 +168,4 @@ contract EventManager is Ownable {
     }
 
 }
+
