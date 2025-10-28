@@ -26,7 +26,7 @@ interface IEventManager {
     function incrementClaimedCount(uint256 eventId) external;
 }
 
-/**
+/*
  * @title Claimer
  * @dev Handles badge claiming with whitelist and verification
  */
@@ -175,3 +175,4 @@ contract Claimer is Ownable {
     }
 
 }
+
