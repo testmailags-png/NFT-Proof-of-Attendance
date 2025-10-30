@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-/**
+/*
  * @title main file
  * @dev Complete POAP system: NFT badges + Event Management + Claiming in one contract
  */
@@ -234,3 +234,4 @@ contract AllInOnePOAP is ERC721URIStorage, Ownable {
         return hasClaimed[user][eventId];
     }
 }
+
