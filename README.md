@@ -190,7 +190,7 @@ Organizer signs proof offline
 - Dynamic badges that evolve
 - Event series bundles
 - 
-##remix logs...
+##Contract deployment:.
 
 contract address	0x0f52a6578c4e60f884244519954842ae4bd8a584
 
