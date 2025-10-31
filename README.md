@@ -192,46 +192,11 @@ Organizer signs proof offline
 - 
 ##remix logs...
 
-status	0x1 Transaction mined and execution succeed
-transaction hash	0x249997306b85dde36aa6c3e3081298597465c6402febee56e15bcefaa48d9c4d
-block hash	0xe7c8edbbc5aff89042c7335cc9ebe53d0b3ba9e5a7bbdf73a068516e638a7221
-block number	9504786
 contract address	0x0f52a6578c4e60f884244519954842ae4bd8a584
-from	0xd3761B4E38C09119266Ce2d74868a80e3c3e5B2b
-to	AllInOnePOAP.(constructor)
-gas	4955657 gas
-transaction cost	4915478 gas 
-input	0x608...e0033
-decoded input	{}
-decoded output	 - 
-logs	[
-	{
-		"from": "0x0f52a6578c4e60f884244519954842ae4bd8a584",
-		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
-		"event": "OwnershipTransferred",
-		"args": {
-			"0": "0x0000000000000000000000000000000000000000",
-			"1": "0xd3761B4E38C09119266Ce2d74868a80e3c3e5B2b"
-		}
-	}
-]
-raw logs	[
-  {
-    "address": "0x0f52a6578c4e60f884244519954842ae4bd8a584",
-    "topics": [
-      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
-      "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "0x000000000000000000000000d3761b4e38c09119266ce2d74868a80e3c3e5b2b"
-    ],
-    "data": "0x",
-    "blockNumber": "0x910812",
-    "transactionHash": "0x249997306b85dde36aa6c3e3081298597465c6402febee56e15bcefaa48d9c4d",
-    "transactionIndex": "0x0",
-    "blockHash": "0xe7c8edbbc5aff89042c7335cc9ebe53d0b3ba9e5a7bbdf73a068516e638a7221",
-    "logIndex": "0x0",
-    "removed": false
-  }
-]
+
+<img width="1399" height="798" alt="image" src="https://github.com/user-attachments/assets/38618c50-3659-47a5-87c1-09b53bcc8294" />
+
+
 
 ## License
 
